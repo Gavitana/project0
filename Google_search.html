@@ -3,10 +3,10 @@
     <head>
         <title>Search</title>
     	<link rel="stylesheet" href="google.css">
-
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
     <body>
-    	<div >
+    	<div id="links">
     		<a href="" >Google Image</a>
     		<a id="link" href="" >Advanced Search</a>
     	</div>
@@ -15,10 +15,15 @@
         <img src = 'doodle.png' width = 325px>
         </div>
 		
-		<form id="form" action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search" >
-        </form>
+		<form action="https://google.com/search">
+            
+            <input id="input1" type="text" name="q">
 
+            <div>
+            <input id="input2" type="submit" value="Google Search" >
+            <input id="input2" type="submit" value="I'm Feeling Lucky">
+		    </div>
+        </form>
+        
     </body>
 </html>
